@@ -1,0 +1,26 @@
+name: flutter_application_2
+description: "Windows desktop tool for evaluating test cases against SRS requirements."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  archive: ^3.6.1
+  xml: ^6.6.1
+  file_selector: ^1.1.0
+  sembast: ^3.8.11
+  sembast_web: ^2.4.6
+  path: ^1.9.1
+  excel: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
